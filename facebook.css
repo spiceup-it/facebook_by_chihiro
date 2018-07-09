@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	background-color: #3b5998;
+	height: 93px;
+	border-bottom: solid 1px black;
+}
+
+.header-contents{
+	overflow: hidden;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.header-logo{
+	color: white;
+	font-family: tahoma;
+	font-style: bold;
+	font-size: 20px;
+	float: left;
+	padding: 20px 40px;
+}
+
+.login{
+	float: right;
+	padding: 20px;
+}
+
+.txt-name h5{
+	color: white;
+	font-weight: lighter;
+	font-family: tahoma;
+	font-size: 12px;
+	padding-bottom: 7px;
+}
+
+.txt-name input{
+	border-color: black;
+	border-width: 1px;
+	height: 23px;
+	width: 150px;
+}
+
+.email{
+	float: left;
+	padding-right: 15px;
+}	
+
+.password{
+	float: left; 
+	padding-right: 15px;
+}
+
+.password h6{
+	padding-top: 7px;
+	font-size: 12px;
+	color: #9cb4d8;
+	font-family: tahoma;
+	font-weight: lighter;
+}
+
+.buttonlogin{
+	float: left;
+	padding-top: 23px;
+	padding-right: 40px;
+}
+
+.buttonlogin button{
+	background-color: #1c79c0;
+	border-color: #4169E1;
+	border-style: groove;
+	border-width: 2px;
+	border-radius: 3px;
+	padding: 3px 5px;
+}
+
+button a{
+	color: white;
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+button:hover{
+	background-color: #3b5998;
+}
+
+button:active{
+	background-color: #004b79;
+}
+
+
+.main{
+	background: linear-gradient(180deg,#f7f7f7,#dfe3ee);
+	height: 93vh;
+	overflow: hidden;
+}
+
+.main-left{
+	float:left;
+}
+
+.main-left p{
+	font-family: arial;
+	color: #0e385f;
+	font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    width: 550px;
+    margin: 35px 35px 0px 125px;
+}
+
+img{
+	width: 550px;
+    margin: 0px 35px 35px 125px;
+}
+
+.main-right{
+	font-family: arial;
+	width: 450px;
+	float: left;
+	margin: -5px 30px 30px 15px;
+}
+
+h2{
+	font-size: 38px;
+	padding-top: 25px;	
+}
+
+.main-right p{
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.account input{
+	height: 22px;
+	border-color: #f7f7f7;
+	border-style: groove;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 7px;
+	font-size: 20px;
+}
+
+.textname{
+	width: 160px;	
+}
+
+.surname{
+	margin-left: 26px;
+}
+
+.mobpass{
+	width: 370px;
+}
+
+.birthday{
+	margin-top: 5px;
+	float: left;
+}
+
+select{
+	float: left;
+	padding: 5px;
+	font-size: 13px;
+}
+
+.birthday h6{
+	color: #3b5998;
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+	font-weight: lighter;
+}
+.gender{
+	float: left;
+	padding: 5px 0px 0px 10px;
+	font-size: 18px;
+ }
+
+.male{
+ 	margin-left: 20px;
+ }
+
+.explanation h6{
+	float: left;
+	color: grey;
+	font-weight: lighter;
+	margin-top: 15px;
+}
+
+span{
+	color: #3b5998;
+}
+
+.signup{
+	float: left;
+	width: 190px;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	background:linear-gradient(#67ae55, #578843);
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	padding: 7px 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main-right h5{
+	float: left;
+	color: grey;
+	font-size: 13px;
+	padding-top: 15px;
+	margin-top: 10px;
+}
+
+.final1 ul{
+	overflow: hidden;
+	width: 1000px;
+	margin: 45px auto 10px auto;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+}
+
+li{
+	list-style: none;
+	float: left;
+	font-family: Yu Gothic;
+	font-size: 13px;
+	font-style: bold;
+	color: #3b5998;
+}
+
+li:first-child{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.final2 ul{
+	width: 1000px;
+	color: #3b5998;
+	margin-left: 140px;
+	margin-bottom: 40px;
+}
+
+.final2 li{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: lighter;
+	margin-right: 15px;
+}
+
+
+.footer h6{
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: lighter;
+	color: grey;
+	margin-left: 140px;
+	margin-bottom: 30px;
+}
+
